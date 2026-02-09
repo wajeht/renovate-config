@@ -1,12 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "docker-compose": {
-    "managerFilePatterns": [
-      "/(^|/)docker-compose\\.ya?ml$/",
-      "/apps/.+/docker-compose\\.ya?ml$/",
-      "/infra/.+/docker-compose\\.ya?ml$/"
-    ]
-  },
   "packageRules": [
     {
       "matchPackagePatterns": ["^linuxserver/", "^lscr\\.io/linuxserver/", "^ghcr\\.io/linuxserver/"],
