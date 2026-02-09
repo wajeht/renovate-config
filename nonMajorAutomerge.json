@@ -2,11 +2,12 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "matchUpdateTypes": ["minor", "patch"],
+      "matchUpdateTypes": ["digest", "minor", "patch"],
       "matchCurrentVersion": "!/^0/",
-      "minimumReleaseAge": "3 days",
+      "minimumReleaseAge": "1 day",
+      "automerge": true,
       "automergeType": "branch",
-      "automerge": true
+      "automergeSchedule": ["* 2-5 * * *"]
     }
   ]
 }

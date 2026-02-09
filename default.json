@@ -1,0 +1,21 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":semanticCommits",
+    ":semanticCommitTypeAll(chore)",
+    ":pinDigestsDisabled",
+    ":rebaseStalePrs",
+    ":disableRateLimiting",
+    "github>wajeht/renovate-config:nonMajorAutomerge",
+    "github>wajeht/renovate-config:labels",
+    "github>wajeht/renovate-config:dockerCompose"
+  ],
+  "timezone": "America/Chicago",
+  "gitIgnoredAuthors": ["29139614+renovate[bot]@users.noreply.github.com"],
+  "platformAutomerge": true,
+  "vulnerabilityAlerts": {
+    "labels": ["security"],
+    "automerge": true
+  }
+}
