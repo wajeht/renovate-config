@@ -1,0 +1,13 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "postUpdateOptions": ["gomodTidy", "gomodUpdateImportPaths"],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "managerFilePatterns": ["/go.mod$/"],
+      "matchStrings": ["\\sgo (?<currentValue>.+?)\\s"],
+      "depNameTemplate": "golang",
+      "datasourceTemplate": "golang-version"
+    }
+  ]
+}

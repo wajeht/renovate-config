@@ -2,6 +2,10 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
+      "matchUpdateTypes": ["major"],
+      "minimumReleaseAge": "2 days"
+    },
+    {
       "matchUpdateTypes": ["digest", "minor", "patch"],
       "matchCurrentVersion": "!/^0/",
       "minimumReleaseAge": "1 day",
