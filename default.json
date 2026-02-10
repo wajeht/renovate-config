@@ -10,7 +10,9 @@
     "github>wajeht/renovate-config:nonMajorAutomerge",
     "github>wajeht/renovate-config:labels",
     "github>wajeht/renovate-config:dockerCompose",
-    "github>wajeht/renovate-config:go"
+    "github>wajeht/renovate-config:go",
+    "github>wajeht/renovate-config:githubActions",
+    ":configMigration"
   ],
   "timezone": "America/Chicago",
   "gitIgnoredAuthors": ["29139614+renovate[bot]@users.noreply.github.com"],
