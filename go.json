@@ -9,5 +9,18 @@
       "depNameTemplate": "golang",
       "datasourceTemplate": "golang-version"
     }
+  ],
+  "packageRules": [
+    {
+      "matchDatasources": ["golang-version"],
+      "rangeStrategy": "bump",
+      "commitMessageTopic": "{{depName}}",
+      "groupName": "Go"
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchDepNames": ["golang"],
+      "groupName": "Go"
+    }
   ]
 }

@@ -1,10 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "labels": ["dependencies"],
-  "packageRules": [
-    {
-      "matchUpdateTypes": ["major"],
-      "labels": ["dependencies", "major"]
-    }
-  ]
+  "labels": ["dependencies", "{{datasource}}", "{{updateType}}"]
 }

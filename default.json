@@ -6,12 +6,15 @@
     ":semanticCommitTypeAll(chore)",
     ":pinDigestsDisabled",
     ":disableRateLimiting",
+    ":maintainLockFilesMonthly",
     "helpers:pinGitHubActionDigestsToSemver",
     "github>wajeht/renovate-config:nonMajorAutomerge",
     "github>wajeht/renovate-config:labels",
     "github>wajeht/renovate-config:dockerCompose",
     "github>wajeht/renovate-config:go",
     "github>wajeht/renovate-config:githubActions",
+    "github>wajeht/renovate-config:vite",
+    "github>wajeht/renovate-config:versionRules",
     ":configMigration",
     "docker:enableMajor"
   ],
@@ -24,10 +27,5 @@
   "vulnerabilityAlerts": {
     "labels": ["security"],
     "automerge": true
-  },
-  "lockFileMaintenance": {
-    "enabled": true,
-    "automerge": true,
-    "schedule": ["before 4am on monday"]
   }
 }
