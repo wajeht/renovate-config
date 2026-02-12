@@ -5,8 +5,8 @@
     ":semanticCommits",
     ":semanticCommitTypeAll(chore)",
     ":pinDigestsDisabled",
-    ":rebaseStalePrs",
     ":disableRateLimiting",
+    "helpers:pinGitHubActionDigestsToSemver",
     "github>wajeht/renovate-config:nonMajorAutomerge",
     "github>wajeht/renovate-config:labels",
     "github>wajeht/renovate-config:dockerCompose",
@@ -16,6 +16,9 @@
     "docker:enableMajor"
   ],
   "timezone": "America/Chicago",
+  "schedule": ["after 10pm and before 5am every weekday", "every weekend"],
+  "rebaseWhen": "conflicted",
+  "transitiveRemediation": true,
   "gitIgnoredAuthors": ["29139614+renovate[bot]@users.noreply.github.com"],
   "platformAutomerge": true,
   "vulnerabilityAlerts": {
