@@ -11,8 +11,8 @@
       "matchCurrentVersion": "!/^0/",
       "minimumReleaseAge": "1 day",
       "automerge": true,
-      "automergeType": "branch",
-      "automergeSchedule": ["* 2-5 * * *"]
+      "automergeType": "pr",
+      "automergeSchedule": ["* 0-8 * * *"]
     }
   ]
 }
