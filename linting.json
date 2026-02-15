@@ -1,0 +1,37 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchManagers": ["npm"],
+      "matchPackagePatterns": [
+        "^eslint",
+        "^@eslint/",
+        "^@typescript-eslint/",
+        "^eslint-plugin-",
+        "^eslint-config-",
+        "^@stylistic/"
+      ],
+      "automerge": true,
+      "groupName": "ESLint"
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchPackagePatterns": ["^prettier", "^@prettier/", "^prettier-plugin-"],
+      "automerge": true,
+      "groupName": "Prettier"
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchPackagePatterns": ["^oxlint", "^@oxlint/", "^oxc-", "^@oxc-"],
+      "automerge": true,
+      "groupName": "OXC"
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["devDependencies"],
+      "matchPackagePatterns": ["^vitest", "^@vitest/", "^cypress", "^jest", "^@testing-library/", "^playwright", "^@playwright/"],
+      "automerge": true,
+      "groupName": "testing tools"
+    }
+  ]
+}

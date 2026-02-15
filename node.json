@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchDatasources": ["docker"],
+      "matchDepNames": ["node"],
+      "groupName": "Node.js"
+    },
+    {
+      "matchManagers": ["nvm", "nodenv"],
+      "groupName": "Node.js"
+    }
+  ]
+}

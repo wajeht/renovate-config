@@ -12,7 +12,7 @@
       "minimumReleaseAge": "1 day",
       "automerge": true,
       "automergeType": "pr",
-      "automergeSchedule": ["* 0-8 * * *"]
+      "automergeSchedule": ["after 12am and before 6am"]
     }
   ]
 }
