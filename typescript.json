@@ -9,7 +9,7 @@
     },
     {
       "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^@types/"],
+      "matchDepPatterns": ["^@types/"],
       "automerge": true,
       "groupName": "type definitions"
     }

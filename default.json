@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended",
+    "config:best-practices",
     ":semanticCommits",
     ":semanticCommitTypeAll(chore)",
     ":pinDigestsDisabled",
@@ -30,8 +30,31 @@
   "transitiveRemediation": true,
   "gitIgnoredAuthors": ["29139614+renovate[bot]@users.noreply.github.com"],
   "platformAutomerge": true,
+  "internalChecksFilter": "strict",
+  "prCreation": "not-pending",
+  "prNotPendingHours": 2,
+  "separateMultipleMajor": true,
+  "configWarningReuseIssue": true,
+  "suppressNotifications": ["prEditedNotification"],
+  "rollbackPrs": true,
+  "dependencyDashboardOSVVulnerabilitySummary": "all",
+  "postUpdateOptions": ["npmDedupe"],
+  "lockFileMaintenance": {
+    "automerge": true,
+    "automergeType": "branch"
+  },
   "vulnerabilityAlerts": {
     "labels": ["security"],
-    "automerge": true
-  }
+    "automerge": true,
+    "prPriority": 10,
+    "schedule": ["at any time"],
+    "minimumReleaseAge": "0 days"
+  },
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["replacement"],
+      "automerge": true,
+      "minimumReleaseAge": "0 days"
+    }
+  ]
 }

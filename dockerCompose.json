@@ -2,7 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "matchPackagePatterns": ["^linuxserver/", "^lscr\\.io/linuxserver/", "^ghcr\\.io/linuxserver/"],
+      "matchDepPatterns": ["^linuxserver/", "^lscr\\.io/linuxserver/", "^ghcr\\.io/linuxserver/"],
       "groupName": "linuxserver images"
     }
   ]

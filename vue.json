@@ -3,13 +3,13 @@
   "packageRules": [
     {
       "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^vue", "^@vue/", "^@vitejs/plugin-vue", "^vue-router", "^pinia", "^@pinia/"],
+      "matchDepPatterns": ["^vue", "^@vue/", "^@vitejs/plugin-vue", "^vue-router", "^pinia", "^@pinia/"],
       "matchUpdateTypes": ["major"],
       "groupName": "Vue"
     },
     {
       "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^nuxt", "^@nuxt/", "^@nuxtjs/"],
+      "matchDepPatterns": ["^nuxt", "^@nuxt/", "^@nuxtjs/"],
       "matchUpdateTypes": ["major"],
       "groupName": "Nuxt"
     }

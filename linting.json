@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "matchManagers": ["npm"],
-      "matchPackagePatterns": [
+      "matchDepPatterns": [
         "^eslint",
         "^@eslint/",
         "^@typescript-eslint/",
@@ -16,20 +16,20 @@
     },
     {
       "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^prettier", "^@prettier/", "^prettier-plugin-"],
+      "matchDepPatterns": ["^prettier", "^@prettier/", "^prettier-plugin-"],
       "automerge": true,
       "groupName": "Prettier"
     },
     {
       "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^oxlint", "^@oxlint/", "^oxc-", "^@oxc-"],
+      "matchDepPatterns": ["^oxlint", "^@oxlint/", "^oxc-", "^@oxc-"],
       "automerge": true,
       "groupName": "OXC"
     },
     {
       "matchManagers": ["npm"],
       "matchDepTypes": ["devDependencies"],
-      "matchPackagePatterns": ["^vitest", "^@vitest/", "^cypress", "^jest", "^@testing-library/", "^playwright", "^@playwright/"],
+      "matchDepPatterns": ["^vitest", "^@vitest/", "^cypress", "^jest", "^@testing-library/", "^playwright", "^@playwright/"],
       "automerge": true,
       "groupName": "testing tools"
     }

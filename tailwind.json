@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^tailwindcss", "^@tailwindcss/", "^postcss", "^autoprefixer"],
+      "matchDepPatterns": ["^tailwindcss", "^@tailwindcss/", "^postcss", "^autoprefixer"],
       "matchUpdateTypes": ["major"],
       "groupName": "Tailwind CSS"
     }
