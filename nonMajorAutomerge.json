@@ -7,9 +7,16 @@
       "dependencyDashboardApproval": true
     },
     {
-      "matchUpdateTypes": ["digest", "minor", "patch"],
+      "matchUpdateTypes": ["minor", "patch"],
       "matchCurrentVersion": "!/^0/",
-      "minimumReleaseAge": "3 days",
+      "minimumReleaseAge": "1 day",
+      "automerge": true,
+      "automergeType": "pr",
+      "automergeSchedule": ["after 12am and before 6am"]
+    },
+    {
+      "matchUpdateTypes": ["digest"],
+      "minimumReleaseAge": "0 days",
       "automerge": true,
       "automergeType": "pr",
       "automergeSchedule": ["after 12am and before 6am"]
