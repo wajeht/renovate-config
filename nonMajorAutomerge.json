@@ -12,14 +12,14 @@
       "minimumReleaseAge": "1 day",
       "automerge": true,
       "automergeType": "pr",
-      "automergeSchedule": ["after 12am and before 6am"]
+      "automergeSchedule": ["after 12am and before 8am"]
     },
     {
       "matchUpdateTypes": ["digest"],
       "minimumReleaseAge": "0 days",
       "automerge": true,
       "automergeType": "pr",
-      "automergeSchedule": ["after 12am and before 6am"]
+      "automergeSchedule": ["after 12am and before 8am"]
     }
   ]
 }
