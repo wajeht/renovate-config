@@ -5,7 +5,7 @@
       "matchManagers": ["github-actions"],
       "groupName": "github actions",
       "automerge": true,
-      "automergeType": "branch"
+      "automergeType": "pr"
     }
   ]
 }
