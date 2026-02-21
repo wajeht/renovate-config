@@ -24,7 +24,7 @@
     "docker:enableMajor"
   ],
   "timezone": "America/Chicago",
-  "schedule": ["after 12am and before 8am"],
+  "schedule": ["after 12am and before 8am every weekday", "every weekend"],
   "rebaseWhen": "conflicted",
   "transitiveRemediation": true,
   "gitIgnoredAuthors": ["29139614+renovate[bot]@users.noreply.github.com"],
