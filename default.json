@@ -4,7 +4,7 @@
     "config:best-practices",
     ":semanticCommits",
     ":semanticCommitTypeAll(chore)",
-    ":pinDigestsDisabled",
+    ":pinDigestsEnabled",
     ":disableRateLimiting",
     ":maintainLockFilesWeekly",
     "helpers:pinGitHubActionDigestsToSemver",

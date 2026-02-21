@@ -23,7 +23,7 @@
       "automergeSchedule": ["after 12am and before 8am"]
     },
     {
-      "matchUpdateTypes": ["digest"],
+      "matchUpdateTypes": ["digest", "pin", "pinDigest"],
       "minimumReleaseAge": "0 days",
       "automerge": true,
       "automergeType": "pr",
