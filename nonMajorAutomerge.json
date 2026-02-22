@@ -3,8 +3,7 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
-      "minimumReleaseAge": "7 days",
-      "dependencyDashboardApproval": true
+      "minimumReleaseAge": "3 days"
     },
     {
       "matchUpdateTypes": ["minor"],
