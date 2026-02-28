@@ -7,7 +7,6 @@
     },
     {
       "matchUpdateTypes": ["minor"],
-      "matchCurrentVersion": "!/^0/",
       "minimumReleaseAge": "1 day",
       "automerge": true,
       "automergeType": "pr",
@@ -15,7 +14,6 @@
     },
     {
       "matchUpdateTypes": ["patch"],
-      "matchCurrentVersion": "!/^0/",
       "minimumReleaseAge": "0 days",
       "automerge": true,
       "automergeType": "pr",
