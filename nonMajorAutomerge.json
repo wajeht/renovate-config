@@ -9,22 +9,19 @@
       "matchUpdateTypes": ["minor"],
       "minimumReleaseAge": "1 day",
       "automerge": true,
-      "automergeType": "pr",
-      "automergeSchedule": ["every 3 hours"]
+      "automergeType": "pr"
     },
     {
       "matchUpdateTypes": ["patch"],
       "minimumReleaseAge": "0 days",
       "automerge": true,
-      "automergeType": "pr",
-      "automergeSchedule": ["every 3 hours"]
+      "automergeType": "pr"
     },
     {
       "matchUpdateTypes": ["digest", "pin", "pinDigest"],
       "minimumReleaseAge": "0 days",
       "automerge": true,
-      "automergeType": "pr",
-      "automergeSchedule": ["every 3 hours"]
+      "automergeType": "pr"
     }
   ]
 }

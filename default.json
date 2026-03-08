@@ -29,9 +29,8 @@
   "transitiveRemediation": true,
   "gitIgnoredAuthors": ["29139614+renovate[bot]@users.noreply.github.com"],
   "platformAutomerge": true,
-  "internalChecksFilter": "strict",
-  "prCreation": "not-pending",
-  "prNotPendingHours": 2,
+  "internalChecksFilter": "flexible",
+  "prCreation": "immediate",
   "separateMultipleMajor": true,
   "configWarningReuseIssue": true,
   "suppressNotifications": ["prEditedNotification"],
@@ -40,7 +39,7 @@
   "postUpdateOptions": ["npmDedupe"],
   "lockFileMaintenance": {
     "automerge": true,
-    "automergeType": "branch"
+    "automergeType": "pr"
   },
   "vulnerabilityAlerts": {
     "labels": ["security"],
