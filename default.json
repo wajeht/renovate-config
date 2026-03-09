@@ -24,7 +24,7 @@
     "docker:enableMajor"
   ],
   "timezone": "America/Chicago",
-  "schedule": ["every 4 hours"],
+  "schedule": ["after 10pm and before 5am"],
   "rebaseWhen": "behind-base-branch",
   "transitiveRemediation": true,
   "gitIgnoredAuthors": ["29139614+renovate[bot]@users.noreply.github.com"],
