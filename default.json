@@ -36,6 +36,7 @@
   "suppressNotifications": ["prEditedNotification"],
   "rollbackPrs": true,
   "dependencyDashboardOSVVulnerabilitySummary": "all",
+  "skipInstalls": false,
   "postUpdateOptions": ["npmDedupe"],
   "lockFileMaintenance": {
     "automerge": true,
