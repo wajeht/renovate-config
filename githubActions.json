@@ -3,6 +3,7 @@
   "packageRules": [
     {
       "matchManagers": ["github-actions"],
+      "matchUpdateTypes": ["minor", "patch", "digest", "pin", "pinDigest"],
       "groupName": "github actions",
       "automerge": true,
       "automergeType": "pr"

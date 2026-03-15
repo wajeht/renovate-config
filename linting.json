@@ -11,18 +11,21 @@
         "^eslint-config-",
         "^@stylistic/"
       ],
+      "matchUpdateTypes": ["minor", "patch"],
       "automerge": true,
       "groupName": "ESLint"
     },
     {
       "matchManagers": ["npm"],
       "matchDepPatterns": ["^prettier", "^@prettier/", "^prettier-plugin-"],
+      "matchUpdateTypes": ["minor", "patch"],
       "automerge": true,
       "groupName": "Prettier"
     },
     {
       "matchManagers": ["npm"],
       "matchDepPatterns": ["^oxlint", "^@oxlint/", "^oxc-", "^@oxc-"],
+      "matchUpdateTypes": ["minor", "patch"],
       "automerge": true,
       "groupName": "OXC"
     },
@@ -30,6 +33,7 @@
       "matchManagers": ["npm"],
       "matchDepTypes": ["devDependencies"],
       "matchDepPatterns": ["^vitest", "^@vitest/", "^cypress", "^jest", "^@testing-library/", "^playwright", "^@playwright/"],
+      "matchUpdateTypes": ["minor", "patch"],
       "automerge": true,
       "groupName": "testing tools"
     }

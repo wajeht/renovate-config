@@ -5,6 +5,7 @@
       "matchManagers": ["npm"],
       "matchDepTypes": ["devDependencies"],
       "matchDepPatterns": ["lint", "prettier", "test", "vitest", "cypress"],
+      "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
     }
   ]
