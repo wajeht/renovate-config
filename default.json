@@ -37,6 +37,7 @@
   "rollbackPrs": true,
   "dependencyDashboardOSVVulnerabilitySummary": "all",
   "skipInstalls": false,
+  "rangeStrategy": "update-lockfile",
   "postUpdateOptions": ["npmDedupe"],
   "lockFileMaintenance": {
     "automerge": true,
