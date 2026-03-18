@@ -25,7 +25,7 @@
   ],
   "timezone": "America/Chicago",
   "schedule": ["before 9am and after 5pm"],
-  "rebaseWhen": "conflicted",
+  "rebaseWhen": "behind-base-branch",
   "transitiveRemediation": true,
   "gitIgnoredAuthors": ["29139614+renovate[bot]@users.noreply.github.com"],
   "platformAutomerge": true,
